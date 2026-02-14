@@ -1,0 +1,3 @@
+# gfProjext/requirements.txt
+FinanceDataReader
+pandas

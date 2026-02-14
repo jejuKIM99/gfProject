@@ -1,0 +1,2 @@
+index.vue:471 Error fetching KRX Gold Price: Error: [GET] "/api/krx-gold-fd": 404 Page not found: /api/krx-gold-fd
+    at fetchKrxGoldPrice (index.vue:436:25)ㅇ

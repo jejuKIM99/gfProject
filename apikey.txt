@@ -1,0 +1,6 @@
+(국제금시세)Alpha Vantage: JZHVJO75JVUQWW6R
+(달러인덱스)FRED: b87cc208337a57919ffb7bd1e655a3c0
+(원/달러환율)한국수출입은행: zMhoMD8VEV1kDOWSBnU1pp1hPWPjH764
+(국내금시세)공공데이터포털: f6a63f4447840a24152d02d544a81ef0bb61f85c0104081806e45e53283c4b07
+supabase URL: https://gxjznorcwnqajdotlmxv.supabase.co
+supabase anon KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd4anpub3Jjd25xYWpkb3RsbXh2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc2Mzc2MjIsImV4cCI6MjA2MzIxMzYyMn0.kuOuJzp-DcDDEIfQ3sMZDi0b0447U_VCQrWZcj-UWsE
