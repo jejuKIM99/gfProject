@@ -1,6 +1,6 @@
 {
   "functions": {
-    "./api/krx-gold-fd.py": {
+    "./server/api/krx-gold-fd.py": {
       "runtime": "@vercel/python@3.0.0",
       "memory": 1024
     }
