@@ -1,13 +1,29 @@
 {
-  "functions": {
-    "./vercel-api/krx-gold-fd.py": {
-      "runtime": "@vercel/python@3.0.0",
-      "memory": 1024
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/nuxt@3",
+      "config": {
+        "outputDirectory": "dist"
+      }
+    },
+    {
+      "src": "./vercel-api/krx-gold-fd.py",
+      "use": "@vercel/python@3.0.0",
+      "config": {
+        "maxLambdaSize": "15mb",
+        "runtime": "python3.9"
+      }
     }
-  },
-  "build": {
-    "env": {
-
+  ],
+  "routes": [
+    {
+      "src": "/api/krx-gold-fd",
+      "dest": "/vercel-api/krx-gold-fd.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
     }
-  }
+  ]
 }
