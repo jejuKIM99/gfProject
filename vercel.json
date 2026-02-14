@@ -1,4 +1,3 @@
-# gfProjext/vercel.json
 {
   "functions": {
     "api/krx-gold-fd.py": {
@@ -6,9 +5,7 @@
       "memory": 1024
     }
   },
-  "build": {
-    "env": {
-      // Python 서버리스 함수를 위한 환경 변수가 필요하다면 여기에 추가
-    }
+  "env": {
+    "EXAMPLE_KEY": "example_value"
   }
 }
