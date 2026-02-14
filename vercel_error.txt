@@ -1,0 +1,9 @@
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Cloning github.com/jejuKIM99/gfProject (Branch: main, Commit: 3276a8d)
+Skipping build cache, deployment was triggered without cache.
+Cloning completed: 197.000ms
+Warning: Detected "engines": { "node": ">=18" } in your `package.json` that will automatically upgrade when a new major Node.js Version is released. Learn More: https://vercel.link/node-version
+Running "vercel build"
+Vercel CLI 50.15.1
+Error: Function Runtimes must have a valid version, for example `now-php@1.0.0`.

@@ -1,11 +1,13 @@
 {
   "functions": {
     "api/krx-gold-fd.py": {
-      "runtime": "@vercel/python",
+      "runtime": "python3.12",
       "memory": 1024
     }
   },
-  "env": {
-    "EXAMPLE_KEY": "example_value"
+  "build": {
+    "env": {
+
+    }
   }
 }
