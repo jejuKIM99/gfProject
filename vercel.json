@@ -4,8 +4,7 @@
       "src": "./vercel-api/krx-gold-fd.py",
       "use": "@vercel/python@3.0.0",
       "config": {
-        "maxLambdaSize": "15mb",
-        "runtime": "python3.9"
+        "maxLambdaSize": "15mb"
       }
     }
   ],
