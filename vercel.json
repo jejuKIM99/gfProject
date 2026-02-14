@@ -2,7 +2,7 @@
   "builds": [
     {
       "src": "./vercel-api/krx-gold-fd.py",
-      "use": "@vercel/python@3.0.0",
+      "use": "@vercel/python@6.1.5",
       "config": {
         "maxLambdaSize": "15mb"
       }
